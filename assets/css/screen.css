@@ -48,6 +48,7 @@ main{
 }
 article{
     height: auto;
+    margin-right: 50px;
     width: 200px;
     border: 1px solid lightgrey;
     margin-top: 50px;
@@ -87,4 +88,30 @@ article button{
     color: white;
     letter-spacing: 1.2px;
     font-size: 1rem;
+}
+footer{
+    margin-top: 50px;
+    height: 115px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+footer div{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+footer div img{
+    height: 50px;
+}
+footer div img:hover{
+    height: 53px;
 }
