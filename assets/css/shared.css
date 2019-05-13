@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+*{
+    font-family: 'Anton', sans-serif;
+}
+header{
+    height: 250px;
+}
+header nav{
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li{
+    padding-top: 15px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header nav ul li a:hover{
+    border: 1px solid black;
+}
+header #logo{
+    background: url("../media/Background.jpg") no-repeat;
+    height: 200px;
+}
+header #logo h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 2px;
+}
+footer{
+    margin-top: 50px;
+    height: 115px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+footer div{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+footer div img{
+    height: 50px;
+}
+footer div img:hover{
+    height: 53px;
+}

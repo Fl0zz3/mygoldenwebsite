@@ -1,0 +1,23 @@
+main{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+main article{
+    margin-top: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 25px;
+}
+main article h2{
+    font-size: 2rem;
+    color: darkolivegreen;
+}
+main article p{
+    margin-top: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
